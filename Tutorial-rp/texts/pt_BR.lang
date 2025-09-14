@@ -1,0 +1,5 @@
+pack.name=Tutorial RP
+pack.description=Pacote de recursos para o addon Tutorial
+
+tile.tutorial:ruby_ore.name=Minério de Ruby
+item.tutorial:ruby.name=Ruby

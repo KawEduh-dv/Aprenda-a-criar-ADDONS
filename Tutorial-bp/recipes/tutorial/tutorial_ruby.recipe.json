@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "tutorial:ruby"
+    },
+    "input": "tutorial:ruby_ore",
+    "output": "tutorial:ruby",
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "unlock": [
+      {
+        "item": "tutorial:ruby_ore"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tutorial:stone_golem",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity",
+        "alpha": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/tutorial/entity/stone_golem"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "geometry": {
+        "default": "geometry.tutorial_stone_golem"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.tutorial_stone_golem.move",
+        "idle": "animation.tutorial_stone_golem.idle"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+          "idle",
+          "look_at_target"
+        ]
+      },
+      "spawn_egg": {
+        "base_color": "#7F7F7F",
+        "overlay_color": "#3B3B3B"
+      }
+    }
+  }
+}

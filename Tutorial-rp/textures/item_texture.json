@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "meuaddon_rp",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "tutorial_ruby": {
+            "textures": "textures/tutorial/items/ruby"
+        }
+    }
+}

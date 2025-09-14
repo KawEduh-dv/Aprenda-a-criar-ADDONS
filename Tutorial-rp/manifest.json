@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "6ad273bf-e16b-4144-b438-5e480c7ed4a9",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "fc7e2125-057f-4cf9-9274-1ee0a793bfed",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "KawEduh", "LanCode" ]
+  },
+  "dependencies": [
+    {
+      "uuid": "2436053d-fa26-4696-a021-5fa2d62703ce",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "tutorial_ruby_ore": {
+      "textures": "textures/tutorial/blocks/ruby_ore"
+    }
+  }
+}
