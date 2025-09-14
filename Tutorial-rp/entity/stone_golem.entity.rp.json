@@ -3,7 +3,6 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "tutorial:stone_golem",
-      "min_engine_version": "1.8.0",
       "materials": {
         "default": "entity",
         "alpha": "entity_alphatest"
@@ -24,8 +23,12 @@
       },
       "scripts": {
         "animate": [
-          "move",
-          "idle",
+          {
+            "move": "q.ground_speed > 0.02"
+          },
+          {
+            "idle": "q.ground_speed <= 0.02"
+          },
           "look_at_target"
         ]
       },

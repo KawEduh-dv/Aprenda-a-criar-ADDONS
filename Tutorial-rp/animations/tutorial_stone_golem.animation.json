@@ -1,23 +1,23 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.tutorial_stone_golem.move": {
+		"animation.tutorial_stone_golem.walk": {
 			"loop": true,
 			"bones": {
 				"right_leg": {
-					"rotation": ["math.sin((query.anim_time * query.modified_move_speed)*220)*16", "2+math.sin((query.anim_time * query.modified_move_speed)*80)*2", 0]
+					"rotation": ["-math.sin(q.modified_distance_moved * 60) * q.modified_move_speed * 16", 0, 0]
 				},
 				"left_leg": {
-					"rotation": ["-math.sin((query.anim_time * query.modified_move_speed)*220)*16", "2-math.sin((query.anim_time * query.modified_move_speed)*80)*2", 0]
+					"rotation": ["math.sin(q.modified_distance_moved * 60) * q.modified_move_speed * 16", 0, 0]
 				},
 				"body": {
-					"rotation": [0, "-math.sin((query.anim_time * query.modified_move_speed)*220)*12", 0]
+					"rotation": [0, "-math.sin(q.modified_distance_moved * 60) * q.modified_move_speed * 5", 0]
 				},
 				"left_arm": {
-					"rotation": ["math.sin((query.anim_time * query.modified_move_speed)*220)*16", "2+math.sin((query.anim_time * query.modified_move_speed)*80)*2", 0]
+					"rotation": ["-math.sin(q.modified_distance_moved * 60) * q.modified_move_speed * 16", 0, 0]
 				},
 				"right_arm": {
-					"rotation": ["-math.sin((query.anim_time * query.modified_move_speed)*220)*16", "2-math.sin((query.anim_time * query.modified_move_speed)*80)*2", 0]
+					"rotation": ["math.sin(q.modified_distance_moved * 60) * q.modified_move_speed * 16", 0, 0]
 				}
 			}
 		},

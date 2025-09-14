@@ -4,6 +4,9 @@
     "texture_data": {
         "tutorial_ruby": {
             "textures": "textures/tutorial/items/ruby"
+        },
+        "tutorial_ruby_pickaxe": {
+            "textures": "textures/tutorial/items/ruby_pickaxe"
         }
     }
 }

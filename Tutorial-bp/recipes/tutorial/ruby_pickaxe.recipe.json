@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "tutorial:ruby_pickaxe"
+    },   
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      " # ",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "tutorial:ruby"
+      }
+    },
+	"unlock": [
+      {
+        "item": "tutorial:ruby"
+      }
+    ],
+    "result": {
+      "item": "tutorial:ruby_pickaxe"
+    },
+    "priority": -1
+  }
+}
